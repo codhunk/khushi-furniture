@@ -58,6 +58,7 @@ export default function Footer() {
         <p className="text-on-surface-variant dark:text-on-tertiary-fixed-variant font-label-md text-label-md">
           © 2024 Khushi Furniture. All rights reserved. Handcrafted Excellence.
         </p>
+        {/* managed by */}
         <p className="text-on-surface-variant dark:text-on-tertiary-fixed-variant font-label-md text-label-md">
           Managed & Developed by <a href="https://webduality.in" target="_blank" rel="noopener noreferrer" className="font-bold text-primary hover:text-secondary transition-colors relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-secondary after:transition-all after:duration-300 hover:after:w-full">Webduality</a>
         </p>
