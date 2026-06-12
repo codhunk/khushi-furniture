@@ -7,8 +7,8 @@ import { usePathname } from "next/navigation";
 
 // ─── Constants ─────────────────────────────────────────────────────────────────
 
-const PHONE_RAW = "918708255349";
-const PHONE_DISPLAY = "+91 8708255349";
+const PHONE_RAW = "916394131925";
+const PHONE_DISPLAY = "+91 6394131925";
 const WA_MESSAGE = encodeURIComponent(
   "Hello, I would like to inquire about Khushi Furniture products.",
 );
