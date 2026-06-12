@@ -47,10 +47,10 @@ export default function PressPage() {
               <div className="bg-surface-container-low p-8 rounded-xl wood-shadow border border-outline-variant/30">
                 <div className="grid grid-cols-2 gap-2 mb-6 h-32">
                   <div className="bg-surface-variant rounded-tl-lg rounded-bl-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Interior" className="w-full h-full object-cover" />
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDr4ve9S5Q6u4th6xNu0Zh21QhwIgO8_ifx9jVCn3pjd8SxmTg5ASsV_S3OH83qJjvE-Voi1IohTi2ASIJfRtEpHBusbJZp8AEJmqXPApF_nBXkFFEom5Ci21sl0wt8bFIn5HknOIdw8TT-kl_sSXVWrOxxISwijeX6lbrOgNw1_Y8ara3PNiZY-5aedpCCxU3l5aTiy-7AYAdmRwJ5xnuXH3Qazm0aOrnPmL1Zl7SXKfxP1YsIX0V7eamEjFtSLzbqdN2LbbgkdNw" alt="Baju Woodwork" className="w-full h-full object-cover" />
                   </div>
                   <div className="bg-surface-variant rounded-tr-lg rounded-br-lg overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Sofa" className="w-full h-full object-cover" />
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDH-nSMmIP-AYidqj37c5vXkfzpq5uGy4F4gJBgkgUjt-ftccIE_bE-faxSV0z58OczdER5_alC9QoXjd2C2l7GdKMNUdqt3w-eGYgSAFJKqTe4cGndftDhtdlJQTTQRXtkBETSewV5oFYDA_SmUerqsJhpvHsxkieL9AyGyPiYsYrBu6bvNKRcTq8EJ-fDkfnyn1adEQaYYTRrF7mhtIM_joUFFh6ajxTNWg5KwRTCKTh7d-x0QZ10Km7pq8Viide6k9xd8eY5R54" alt="Designer Gate" className="w-full h-full object-cover" />
                   </div>
                 </div>
                 <h3 className="font-headline-sm text-headline-sm text-primary mb-2">High-Res Imagery</h3>

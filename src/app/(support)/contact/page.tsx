@@ -148,11 +148,11 @@ export default function Contact() {
                   <div className="space-y-2">
                     <label className="font-label-md text-label-md text-on-surface-variant">Product Requirement</label>
                     <select className="w-full bg-surface-container-low border-b border-outline-variant p-3 bottom-border-focus transition-all text-body-md font-body-md appearance-none">
-                      <option>Custom Sofa Sets</option>
-                      <option>Dining Tables</option>
-                      <option>Bedroom Collections</option>
-                      <option>Office Furniture</option>
-                      <option>Home Decor Accents</option>
+                      <option>Wooden Frames (Baju)</option>
+                      <option>Ventilators (Roshandan)</option>
+                      <option>Window Grills (Jangla)</option>
+                      <option>Designer Gates</option>
+                      <option>Other Custom Woodwork</option>
                     </select>
                   </div>
                   <div className="space-y-2">

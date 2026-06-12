@@ -27,10 +27,10 @@ export default function Footer() {
         <div className="space-y-6">
           <h4 className="font-medium text-headline-sm text-primary">Collections</h4>
           <ul className="space-y-4">
-            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/products">Living Room</Link></li>
-            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/products">Dining Set</Link></li>
-            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/products">Bedroom Luxury</Link></li>
-            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/products">Office Heritage</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/products">Wooden Frames (Baju)</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/products">Ventilators (Roshandan)</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/products">Window Grills (Jangla)</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/products">Designer Gates</Link></li>
           </ul>
         </div>
 
@@ -54,9 +54,12 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="max-w-container-max mx-auto px-gutter mt-16 pt-8 border-t border-outline-variant/30 text-center">
+      <div className="max-w-container-max mx-auto px-gutter mt-16 pt-8 border-t border-outline-variant/30 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
         <p className="text-on-surface-variant dark:text-on-tertiary-fixed-variant font-label-md text-label-md">
           © 2024 Khushi Furniture. All rights reserved. Handcrafted Excellence.
+        </p>
+        <p className="text-on-surface-variant dark:text-on-tertiary-fixed-variant font-label-md text-label-md">
+          Managed by <a href="https://webduality.com" target="_blank" rel="noopener noreferrer" className="font-bold text-primary hover:text-secondary transition-colors relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-secondary after:transition-all after:duration-300 hover:after:w-full">Webduality</a>
         </p>
       </div>
     </footer>

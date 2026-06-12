@@ -124,42 +124,42 @@ export default function Home() {
         <div className="max-w-container-max mx-auto px-gutter">
           <div className="text-center mb-16">
             <h2 className="font-headline-md text-headline-md text-primary mb-4">Explore Our Collections</h2>
-            <p className="text-on-surface-variant max-w-xl mx-auto">From intimate bedrooms to vibrant workspaces, find furniture that resonates with your lifestyle.</p>
+            <p className="text-on-surface-variant max-w-xl mx-auto">From elegant wooden frames to sturdy designer gates, find the perfect woodwork for your home.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-6 h-auto md:h-[700px]">
-            {/* Sofas - Large Vertical */}
+            {/* Baju - Large Vertical */}
             <div className="md:col-span-2 md:row-span-2 relative group overflow-hidden rounded-xl premium-shadow">
-              <img alt="Sofas Category" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUY-8150opGalQXmB5L0BH84MCY6iLeismh8cifpeBQyIk9NNhg5Egn8D3o_0gr5PQTHbUC3_9peH7XQoPTMNwGYzLt2rNCtATLhg3pkiYls9X1VoaM-JcIltk6ZFGkd9LnoOoSLGi-oJJ0A48UHKi_bSeFtPjv8YTkvaENeBh6otL-WXm_qH4P2B_yS6-FVQawD-5Sz3YLWQ7bbdGDZlTzXKeyRtzgaTampthZIqzIElwzyRPy1xm4Ejb-EXiEjK0ny1BaiTMeyY" />
+              <img alt="Baju Category" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUY-8150opGalQXmB5L0BH84MCY6iLeismh8cifpeBQyIk9NNhg5Egn8D3o_0gr5PQTHbUC3_9peH7XQoPTMNwGYzLt2rNCtATLhg3pkiYls9X1VoaM-JcIltk6ZFGkd9LnoOoSLGi-oJJ0A48UHKi_bSeFtPjv8YTkvaENeBh6otL-WXm_qH4P2B_yS6-FVQawD-5Sz3YLWQ7bbdGDZlTzXKeyRtzgaTampthZIqzIElwzyRPy1xm4Ejb-EXiEjK0ny1BaiTMeyY" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
               <div className="absolute bottom-8 left-8">
-                <h3 className="text-white font-headline-md text-headline-md mb-2">Sofas &amp; Loungers</h3>
-                <p className="text-white/80 mb-4">The centerpiece of your living space.</p>
-                <a className="text-secondary-fixed font-bold flex items-center gap-2 group/btn" href="#">Shop Now <span className="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform">arrow_forward</span></a>
+                <h3 className="text-white font-headline-md text-headline-md mb-2">Wooden Frames (Baju)</h3>
+                <p className="text-white/80 mb-4">Premium handcrafted window and door frames.</p>
+                <a className="text-secondary-fixed font-bold flex items-center gap-2 group/btn" href="/products">View Models <span className="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform">arrow_forward</span></a>
               </div>
             </div>
-            {/* Beds - Horizontal */}
+            {/* Roshandan - Horizontal */}
             <div className="md:col-span-2 relative group overflow-hidden rounded-xl premium-shadow">
-              <img alt="Beds Category" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsWGXFohC20I5psmsVuHI-5l2M4DpDbaMaLV1HqRbNSbMMkoDQChpslvZTJzUzbldvVimhvwA0N4U8nZ91eDymgExczo9PEWcGy_GAvUpg3c-X7TiykSysP35zxBpzaUxBeaOcuaJG83defd49hA3ApIDTahV4iUwGGgJIjy3AnGIcWoqaPDR0iTmTLBVvgbYvujwmUVrUPz1Ar3rM8uPYk-9cFIbZT66preDSW0MXXjhy0Sikj2VAurYEFRRm4gSWhs4uspk2JjQ" />
+              <img alt="Roshandan Category" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsWGXFohC20I5psmsVuHI-5l2M4DpDbaMaLV1HqRbNSbMMkoDQChpslvZTJzUzbldvVimhvwA0N4U8nZ91eDymgExczo9PEWcGy_GAvUpg3c-X7TiykSysP35zxBpzaUxBeaOcuaJG83defd49hA3ApIDTahV4iUwGGgJIjy3AnGIcWoqaPDR0iTmTLBVvgbYvujwmUVrUPz1Ar3rM8uPYk-9cFIbZT66preDSW0MXXjhy0Sikj2VAurYEFRRm4gSWhs4uspk2JjQ" />
               <div className="absolute inset-0 bg-black/40"></div>
               <div className="absolute bottom-6 left-6">
-                <h3 className="text-white font-headline-sm text-headline-sm mb-1">Luxury Beds</h3>
-                <a className="text-secondary-fixed font-bold flex items-center gap-2" href="#">View Collection</a>
+                <h3 className="text-white font-headline-sm text-headline-sm mb-1">Ventilators (Roshandan)</h3>
+                <a className="text-secondary-fixed font-bold flex items-center gap-2" href="/products">View Collection</a>
               </div>
             </div>
-            {/* Dining Tables */}
+            {/* Jangla */}
             <div className="relative group overflow-hidden rounded-xl premium-shadow">
-              <img alt="Dining Category" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDD-YntbvzxoWJEKFT9VmrtsaziQTYxU388PDfz_cn0rfGSa_lHeLGNbbESF-2iczvNAMCwrJU2i_nEC_GlE_Su3RLJo5gITiX98CpgI0Lo4o6JuoPYtFf6GsRbRT58oOSkaN3Vgb_H9TyAFGlAKFAkbsGeiuX6URcl878W9HEcdxO7gV7kyGJdeRDsjvEcyIY12JRY_vXY3jvMZmVy-Q1G5_howu0W03ZNSb068NpC0SnAHU78OjJ0phiUDrdIDH2vWbu2HhGGTp4" />
+              <img alt="Jangla Category" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDD-YntbvzxoWJEKFT9VmrtsaziQTYxU388PDfz_cn0rfGSa_lHeLGNbbESF-2iczvNAMCwrJU2i_nEC_GlE_Su3RLJo5gITiX98CpgI0Lo4o6JuoPYtFf6GsRbRT58oOSkaN3Vgb_H9TyAFGlAKFAkbsGeiuX6URcl878W9HEcdxO7gV7kyGJdeRDsjvEcyIY12JRY_vXY3jvMZmVy-Q1G5_howu0W03ZNSb068NpC0SnAHU78OjJ0phiUDrdIDH2vWbu2HhGGTp4" />
               <div className="absolute inset-0 bg-black/40"></div>
               <div className="absolute bottom-6 left-6">
-                <h4 className="text-white font-bold">Dining Tables</h4>
+                <h4 className="text-white font-bold">Window Grills (Jangla)</h4>
               </div>
             </div>
-            {/* Wardrobes/Office */}
+            {/* Gates */}
             <div className="relative group overflow-hidden rounded-xl premium-shadow">
-              <img alt="Office Category" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkaptLOEteEm-P3tsPYTB3_V0U2omMB9wARQxRff4TIy3WEOzxRbLnhSndowD6JMPO1qiybuEspsYINkFPqX96RYkck2Vr2mU2JzyXm2nTChB80k_2DLp76KOXaUboKo1JDyR8L_zcKeIw-_sVIGLhMOxFR4JbFesXy5ELkpbdVmUhBs2JCFWZ0Ac-Qd6hNbzYiqj5r4T-BARa_Vjbpx0faIy__Z1krEDiRv2X4iEKJiqYdKwzap1yOifiRlBVV2g8B32oLi6KQIo" />
+              <img alt="Gates Category" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkaptLOEteEm-P3tsPYTB3_V0U2omMB9wARQxRff4TIy3WEOzxRbLnhSndowD6JMPO1qiybuEspsYINkFPqX96RYkck2Vr2mU2JzyXm2nTChB80k_2DLp76KOXaUboKo1JDyR8L_zcKeIw-_sVIGLhMOxFR4JbFesXy5ELkpbdVmUhBs2JCFWZ0Ac-Qd6hNbzYiqj5r4T-BARa_Vjbpx0faIy__Z1krEDiRv2X4iEKJiqYdKwzap1yOifiRlBVV2g8B32oLi6KQIo" />
               <div className="absolute inset-0 bg-black/40"></div>
               <div className="absolute bottom-6 left-6">
-                <h4 className="text-white font-bold">Office Furniture</h4>
+                <h4 className="text-white font-bold">Designer Gates</h4>
               </div>
             </div>
           </div>
@@ -224,66 +224,66 @@ export default function Home() {
             {/* Product Card 1 */}
             <div className="group bg-surface rounded-xl overflow-hidden premium-shadow transition-all hover:-translate-y-2">
               <div className="relative h-64 overflow-hidden">
-                <img alt="The Royal Sofa" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNjmAciO2pslN_b4ft1zk1_K2hYMi9pIx5iGROAXOleeXVVW4wOY3Dn3LkYhYNrcS3Pa51XT_sUjYH4jfYWvI4q0x15Q023TGsoYeOK9rBfX6ZRNn4757yPe6KYkhIsge9zVhDa5_3WBG37-zYxNAD6URmlyvl-FyTNapx_sLef87A8vO_O73X8EIpND8ISybDbdfy8OmT0mPCHM07tFDyCF9Ax-DkNTZMVJFdNPGAz6uZqKtvkh60r1u8F9H-BHfAzg232ZmkRkw" />
-                <div className="absolute top-4 left-4 bg-secondary text-on-secondary px-3 py-1 rounded-full text-xs font-bold">New Arrival</div>
+                <img alt="Sada Baju" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNjmAciO2pslN_b4ft1zk1_K2hYMi9pIx5iGROAXOleeXVVW4wOY3Dn3LkYhYNrcS3Pa51XT_sUjYH4jfYWvI4q0x15Q023TGsoYeOK9rBfX6ZRNn4757yPe6KYkhIsge9zVhDa5_3WBG37-zYxNAD6URmlyvl-FyTNapx_sLef87A8vO_O73X8EIpND8ISybDbdfy8OmT0mPCHM07tFDyCF9Ax-DkNTZMVJFdNPGAz6uZqKtvkh60r1u8F9H-BHfAzg232ZmkRkw" />
+                <div className="absolute top-4 left-4 bg-secondary text-on-secondary px-3 py-1 rounded-full text-xs font-bold">Baju</div>
               </div>
               <div className="p-6">
-                <p className="text-on-surface-variant text-xs uppercase tracking-widest mb-1">Living Room</p>
-                <h4 className="text-primary font-bold text-lg mb-2">The Royal Chesterfield</h4>
+                <p className="text-on-surface-variant text-xs uppercase tracking-widest mb-1">Wooden Frame</p>
+                <h4 className="text-primary font-bold text-lg mb-2">Sada Baju</h4>
                 <div className="flex justify-between items-center">
-                  <span className="text-secondary font-headline-sm text-headline-sm">₹129,900</span>
-                  <button className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:bg-secondary transition-all">
-                    <span className="material-symbols-outlined text-sm">shopping_cart</span>
-                  </button>
+                  <span className="text-secondary font-headline-sm text-headline-sm">₹1150</span>
+                  <a href="/products" className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:bg-secondary transition-all">
+                    <span className="material-symbols-outlined text-sm">arrow_forward</span>
+                  </a>
                 </div>
               </div>
             </div>
             {/* Product Card 2 */}
             <div className="group bg-surface rounded-xl overflow-hidden premium-shadow transition-all hover:-translate-y-2">
               <div className="relative h-64 overflow-hidden">
-                <img alt="Dining Table" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9sbDhpv0uzFluk7IaE9hUb8gon14RMG9YeNbGCZw5RRX15j7h9ID_WYai87lAEtExjQmRT0c2hXvqfX0tt-P4l74NBWCfJLvGcsnakJ-o2aIHnmETIseVLKJ8TdydHFAlxlgOaLb5llMrzNJ6BrlYV1VpyTdSJlLMak8RAOKTMpekJLxb_2_wN_QYuJlPh1n8ag7jI4hf9qejnCFBg8--Is_4cEPcGdE-tsipdAvGP8TRK24_ErpZn6Epw7QHMMi1pVjJ7Zpn22E" />
+                <img alt="Mehrab Jangla" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9sbDhpv0uzFluk7IaE9hUb8gon14RMG9YeNbGCZw5RRX15j7h9ID_WYai87lAEtExjQmRT0c2hXvqfX0tt-P4l74NBWCfJLvGcsnakJ-o2aIHnmETIseVLKJ8TdydHFAlxlgOaLb5llMrzNJ6BrlYV1VpyTdSJlLMak8RAOKTMpekJLxb_2_wN_QYuJlPh1n8ag7jI4hf9qejnCFBg8--Is_4cEPcGdE-tsipdAvGP8TRK24_ErpZn6Epw7QHMMi1pVjJ7Zpn22E" />
               </div>
               <div className="p-6">
-                <p className="text-on-surface-variant text-xs uppercase tracking-widest mb-1">Dining</p>
-                <h4 className="text-primary font-bold text-lg mb-2">Artisan Oak Table</h4>
+                <p className="text-on-surface-variant text-xs uppercase tracking-widest mb-1">Window Grill</p>
+                <h4 className="text-primary font-bold text-lg mb-2">Mehrab Jangla</h4>
                 <div className="flex justify-between items-center">
-                  <span className="text-secondary font-headline-sm text-headline-sm">₹85,000</span>
-                  <button className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:bg-secondary transition-all">
-                    <span className="material-symbols-outlined text-sm">shopping_cart</span>
-                  </button>
+                  <span className="text-secondary font-headline-sm text-headline-sm">₹2800</span>
+                  <a href="/products" className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:bg-secondary transition-all">
+                    <span className="material-symbols-outlined text-sm">arrow_forward</span>
+                  </a>
                 </div>
               </div>
             </div>
             {/* Product Card 3 */}
             <div className="group bg-surface rounded-xl overflow-hidden premium-shadow transition-all hover:-translate-y-2">
               <div className="relative h-64 overflow-hidden">
-                <img alt="Queen Bed" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwYRaLQFlAdARaTs5kqb3UF8TakLrBgPjKBLswZokbyw7JAxG-t58EhqnwlYOF5fUVUqVkK5T8QyNTX3VpeKx5pcqtiBoImwtlopYS7nLalBesPcqJG-Q_L2voOLSa5BNqq321HUrKQ3AK65vvgasqHnlEncJ6Za-PU-D1ENiJB6UkuPLptCVUaOb6pKijyoB5CZUTdeROw4rqUAxX3Art7YCalQYESKcZ5zdMu3xDj0g7POAbfpHdZJqPHF941orJV66MnQ3VkzE" />
-                <div className="absolute top-4 left-4 bg-primary text-on-primary px-3 py-1 rounded-full text-xs font-bold">Limited</div>
+                <img alt="Maruti Roshandan Baju" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwYRaLQFlAdARaTs5kqb3UF8TakLrBgPjKBLswZokbyw7JAxG-t58EhqnwlYOF5fUVUqVkK5T8QyNTX3VpeKx5pcqtiBoImwtlopYS7nLalBesPcqJG-Q_L2voOLSa5BNqq321HUrKQ3AK65vvgasqHnlEncJ6Za-PU-D1ENiJB6UkuPLptCVUaOb6pKijyoB5CZUTdeROw4rqUAxX3Art7YCalQYESKcZ5zdMu3xDj0g7POAbfpHdZJqPHF941orJV66MnQ3VkzE" />
+                <div className="absolute top-4 left-4 bg-primary text-on-primary px-3 py-1 rounded-full text-xs font-bold">Ventilator</div>
               </div>
               <div className="p-6">
-                <p className="text-on-surface-variant text-xs uppercase tracking-widest mb-1">Bedroom</p>
-                <h4 className="text-primary font-bold text-lg mb-2">Zenith Wingback Bed</h4>
+                <p className="text-on-surface-variant text-xs uppercase tracking-widest mb-1">Ventilator Frame</p>
+                <h4 className="text-primary font-bold text-lg mb-2">Maruti Roshandan Baju</h4>
                 <div className="flex justify-between items-center">
-                  <span className="text-secondary font-headline-sm text-headline-sm">₹210,000</span>
-                  <button className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:bg-secondary transition-all">
-                    <span className="material-symbols-outlined text-sm">shopping_cart</span>
-                  </button>
+                  <span className="text-secondary font-headline-sm text-headline-sm">₹1600</span>
+                  <a href="/products" className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:bg-secondary transition-all">
+                    <span className="material-symbols-outlined text-sm">arrow_forward</span>
+                  </a>
                 </div>
               </div>
             </div>
             {/* Product Card 4 */}
             <div className="group bg-surface rounded-xl overflow-hidden premium-shadow transition-all hover:-translate-y-2">
               <div className="relative h-64 overflow-hidden">
-                <img alt="Cabinet" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnmq6d8CLzFktr1zTxJyQw8wfSrQNp4n4vcfiqW9HGR15Y-p3KBoFlP5ff74fsuwLHXHR3NrszyS_Mn6Vu1I8rQnrjLMwjQzBrwX6BXA3b7csyWUdOqYBpwxDMFdZ6vv83m5RnhRJ0ywAkxTZFaeIMg53Cn0uLJCtQlykuyGUTziH2kHEs6waLe4Hk5CFTQRyRkSgSAEfWrfwJBpVwl8FzuaWxnJn6sVUneoeQGoDHH9XKG0oeCwkPDqGutyFL-8CC4DrUR0Ju82Q" />
+                <img alt="Mehrab Half Gate" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnmq6d8CLzFktr1zTxJyQw8wfSrQNp4n4vcfiqW9HGR15Y-p3KBoFlP5ff74fsuwLHXHR3NrszyS_Mn6Vu1I8rQnrjLMwjQzBrwX6BXA3b7csyWUdOqYBpwxDMFdZ6vv83m5RnhRJ0ywAkxTZFaeIMg53Cn0uLJCtQlykuyGUTziH2kHEs6waLe4Hk5CFTQRyRkSgSAEfWrfwJBpVwl8FzuaWxnJn6sVUneoeQGoDHH9XKG0oeCwkPDqGutyFL-8CC4DrUR0Ju82Q" />
               </div>
               <div className="p-6">
-                <p className="text-on-surface-variant text-xs uppercase tracking-widest mb-1">Storage</p>
-                <h4 className="text-primary font-bold text-lg mb-2">Heritage Sideboard</h4>
+                <p className="text-on-surface-variant text-xs uppercase tracking-widest mb-1">Gates</p>
+                <h4 className="text-primary font-bold text-lg mb-2">Mehrab Half Gate</h4>
                 <div className="flex justify-between items-center">
-                  <span className="text-secondary font-headline-sm text-headline-sm">₹95,000</span>
-                  <button className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:bg-secondary transition-all">
-                    <span className="material-symbols-outlined text-sm">shopping_cart</span>
-                  </button>
+                  <span className="text-secondary font-headline-sm text-headline-sm">₹7000</span>
+                  <a href="/products" className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:bg-secondary transition-all">
+                    <span className="material-symbols-outlined text-sm">arrow_forward</span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -299,21 +299,21 @@ export default function Home() {
               <div className="w-20 h-20 bg-secondary/10 text-secondary rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="material-symbols-outlined text-4xl">factory</span>
               </div>
-              <h3 className="font-headline-sm text-headline-sm text-primary mb-4">Precision Manufacturing</h3>
+              <h3 className="font-medium text-headline text-primary mb-4">Precision Manufacturing</h3>
               <p className="text-on-surface-variant">Our state-of-the-art facility combines robotic precision with artisan hand-finishing.</p>
             </div>
             <div className="text-center p-8 border-x border-outline-variant/30">
               <div className="w-20 h-20 bg-secondary/10 text-secondary rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="material-symbols-outlined text-4xl">edit_square</span>
               </div>
-              <h3 className="font-headline-sm text-headline-sm text-primary mb-4">Custom Design</h3>
+              <h3 className="font-medium text-headline text-primary mb-4">Custom Design</h3>
               <p className="text-on-surface-variant">Work with our designers to create bespoke furniture tailored to your exact measurements.</p>
             </div>
             <div className="text-center p-8">
               <div className="w-20 h-20 bg-secondary/10 text-secondary rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="material-symbols-outlined text-4xl">chair_alt</span>
               </div>
-              <h3 className="font-headline-sm text-headline-sm text-primary mb-4">Interior Solutions</h3>
+              <h3 className="font-medium text-headline text-primary mb-4">Interior Solutions</h3>
               <p className="text-on-surface-variant">Complete home transformation from concept drawings to final installation.</p>
             </div>
           </div>
@@ -350,7 +350,7 @@ export default function Home() {
             {/* Testimonial 1 */}
             <div className="p-8 bg-white rounded-2xl shadow-lg border border-outline-variant/10">
               <span className="material-symbols-outlined text-secondary/40 text-5xl mb-4">format_quote</span>
-              <p className="font-body-md text-body-md text-on-surface-variant italic mb-8 leading-relaxed">"The attention to detail in their custom sofa is incredible. It's not just furniture; it's a piece of art that transformed our living room entirely."</p>
+              <p className="font-body-md text-body-md text-on-surface-variant italic mb-8 leading-relaxed">"The attention to detail in their custom wooden gates is incredible. It's not just woodwork; it's a piece of art that transformed our home entirely."</p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-surface-container-highest overflow-hidden">
                   <img alt="Sarah J." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMcYvbI742L-g7W8TfuUla357yQqsKUh0wJFu4fAtwT9V5gbXsaRbTyMSptv0cVxtuMAi8vzDvPKwO-vWTNX_qj1k5qSBID97d5FyaBf_Xy4lSQ_VNbbo9zxTseXQWZP8JdRCnnctopoL5qbFAMKafctPw9KvL4k1wV0GPai_vLqxHyky-ymrmECz4-n-u0d-u-GQAnukqGSnqdglRSgbZgYh9Oxp8hn-YgZnGBY32Rla8iYl5HSCaQLwt6xAsbsK7sUM9jSqma2o" />
