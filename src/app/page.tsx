@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import CountUpStat from '@/components/CountUpStat';
 
 export default function Home() {
   useEffect(() => {
@@ -78,8 +79,13 @@ export default function Home() {
                 <img alt="Artisan at work" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCntCquXUq0l2gdNR_rD6E87ePmxs7bNvR3CHVm-u_NTQXFlrKNmh9FM9UKtWczFBm0ao9WEUTsjGLw1YTAasG8-Gjb9OYBCauh4QU7eBZA5-W0YXxqqG7_TTAQyfF41U7GlN_IOpNh2ccsjIIe7jaigyldW7sSNgxcXf-N7mHClSwUIDHyL5cdP-jxQsp6QefW_92U2W4UqHEEyBezqA5AKbRuc8dimMWRwHe8wxE590CK54SQmf6icWGGTfSdQL5CkD4i7Gi-x1U" />
               </div>
               <div className="absolute -bottom-8 -right-8 bg-primary-container p-8 rounded-xl shadow-xl hidden md:block">
-                <p className="text-secondary-fixed font-headline-md text-headline-md font-bold mb-1">25+</p>
-                <p className="text-on-primary-container font-label-md text-label-md">Years of Legacy</p>
+                <CountUpStat
+                  endValue={25}
+                  suffix="+"
+                  label="Years of Legacy"
+                  labelClassName="text-on-primary-container font-label-md text-label-md"
+                  valueClassName="text-secondary-fixed font-headline-md text-headline-md font-bold mb-1"
+                />
               </div>
             </div>
             <div>
@@ -319,22 +325,10 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative z-10 max-w-container-max mx-auto px-gutter">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
-            <div>
-              <h3 className="text-white text-[48px] font-bold mb-2">15k+</h3>
-              <p className="text-secondary-fixed-dim font-label-md text-label-md uppercase tracking-wider">Happy Customers</p>
-            </div>
-            <div>
-              <h3 className="text-white text-[48px] font-bold mb-2">250k+</h3>
-              <p className="text-secondary-fixed-dim font-label-md text-label-md uppercase tracking-wider">Products Delivered</p>
-            </div>
-            <div>
-              <h3 className="text-white text-[48px] font-bold mb-2">25+</h3>
-              <p className="text-secondary-fixed-dim font-label-md text-label-md uppercase tracking-wider">Years of Experience</p>
-            </div>
-            <div>
-              <h3 className="text-white text-[48px] font-bold mb-2">50+</h3>
-              <p className="text-secondary-fixed-dim font-label-md text-label-md uppercase tracking-wider">Cities Served</p>
-            </div>
+            <CountUpStat endValue={15} suffix="k+" label="Happy Customers" />
+            <CountUpStat endValue={250} suffix="k+" label="Products Delivered" />
+            <CountUpStat endValue={25} suffix="+" label="Years of Experience" />
+            <CountUpStat endValue={50} suffix="+" label="Cities Served" />
           </div>
         </div>
       </section>
@@ -362,7 +356,7 @@ export default function Home() {
                   <img alt="Sarah J." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMcYvbI742L-g7W8TfuUla357yQqsKUh0wJFu4fAtwT9V5gbXsaRbTyMSptv0cVxtuMAi8vzDvPKwO-vWTNX_qj1k5qSBID97d5FyaBf_Xy4lSQ_VNbbo9zxTseXQWZP8JdRCnnctopoL5qbFAMKafctPw9KvL4k1wV0GPai_vLqxHyky-ymrmECz4-n-u0d-u-GQAnukqGSnqdglRSgbZgYh9Oxp8hn-YgZnGBY32Rla8iYl5HSCaQLwt6xAsbsK7sUM9jSqma2o" />
                 </div>
                 <div>
-                  <h5 className="font-bold text-primary">Sarah Jenkins</h5>
+                  <h5 className="font-bold text-primary">Ravi Jaiswal</h5>
                   <p className="text-xs text-on-surface-variant">Interior Designer</p>
                 </div>
               </div>
@@ -376,7 +370,7 @@ export default function Home() {
                   <img alt="David M." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZCOVgz6Nvxqfxe_nrHnVJd8bJbNEGROz1WseOnn5SaU_Q8jhpoA-iQ71ULk5LnwF1Jo3GZOc-vKbzpuLclXZsXPuK890NQgfVVqZKaJPhBoBs1E5UJbpiWparvVgfO4LFMSloCqs7V388YAJch71WPX2y66qypwUwqoxxGxu8B282Lg6BZ4iD0lxqcsVJ5NtCdi8oJ8isU5-Js06FopXUV5AbEk3YK0hjm75-UR1SKM7idfyJrIDh5MFYfZevl_cR10sjDsPwcyU" />
                 </div>
                 <div>
-                  <h5 className="font-bold text-primary">David Miller</h5>
+                  <h5 className="font-bold text-primary">Ansh Goyal</h5>
                   <p className="text-xs text-on-surface-variant">Homeowner, Chicago</p>
                 </div>
               </div>
@@ -390,7 +384,7 @@ export default function Home() {
                   <img alt="Emily R." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCibr8mjRalGfqqBAuwMdL8ZUY6dQsbwYQARMqzYKr8fzAXK8w4hroedIQr97ywt_7cL001kVpbzZ7EqpUmOcbBf6WqmO8vnggPMMBd_Dy4H-M1uRGRzUxaeIJGhYeEXHWcq8jxO0H4-FMVFM2tIpIIWNKXvRRoXAFMLLD5b3P4Hg7kLlJp3n5h02tT3cEfu0nNvo1J9iLmNI9jA64cH01D6KKJ8wVzkGgMe3pJ9jLMAqFDscQaJ9dVGzkjL10rw_Hr_2HoHd8iL1o" />
                 </div>
                 <div>
-                  <h5 className="font-bold text-primary">Emily Rodriguez</h5>
+                  <h5 className="font-bold text-primary">Abhinav Singh</h5>
                   <p className="text-xs text-on-surface-variant">CEO, Tech Innovations</p>
                 </div>
               </div>

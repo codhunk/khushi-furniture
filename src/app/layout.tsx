@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   description: "Crafting Elegance for Your Home with Khushi Furniture",
 };
 
+import WhatsAppButton from "@/components/WhatsAppButton";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -19,6 +21,7 @@ export default function RootLayout({
       </head>
       <body className="bg-background text-on-surface">
         {children}
+        <WhatsAppButton />
       </body>
     </html>
   );

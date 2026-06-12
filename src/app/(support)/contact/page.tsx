@@ -79,7 +79,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-headline-sm text-headline-sm text-primary mb-2">Our Atelier</h3>
-                      <p className="font-body-md text-body-md text-on-surface-variant">Plot No. 42, Furniture Block, Timber Market,<br/>Industrial Area Phase II, Mumbai, Maharashtra 400013</p>
+                      <p className="font-body-md text-body-md text-on-surface-variant">Post Pawai, Basti Chak Gulara,<br/>Uttar Pradesh 276288</p>
                     </div>
                   </div>
                   <div className="flex gap-6">
@@ -134,7 +134,7 @@ export default function Contact() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <label className="font-label-md text-label-md text-on-surface-variant">Your Name</label>
-                      <input required className="w-full bg-surface-container-low border-b border-outline-variant p-3 bottom-border-focus transition-all text-body-md font-body-md" placeholder="John Doe" type="text" />
+                      <input required className="w-full bg-surface-container-low border-b border-outline-variant p-3 bottom-border-focus transition-all text-body-md font-body-md" placeholder="Abhinav" type="text" />
                     </div>
                     <div className="space-y-2">
                       <label className="font-label-md text-label-md text-on-surface-variant">Phone Number</label>
@@ -143,7 +143,7 @@ export default function Contact() {
                   </div>
                   <div className="space-y-2">
                     <label className="font-label-md text-label-md text-on-surface-variant">Email Address</label>
-                    <input required className="w-full bg-surface-container-low border-b border-outline-variant p-3 bottom-border-focus transition-all text-body-md font-body-md" placeholder="john@example.com" type="email" />
+                    <input required className="w-full bg-surface-container-low border-b border-outline-variant p-3 bottom-border-focus transition-all text-body-md font-body-md" placeholder="abhinav@example.com" type="email" />
                   </div>
                   <div className="space-y-2">
                     <label className="font-label-md text-label-md text-on-surface-variant">Product Requirement</label>
@@ -188,28 +188,19 @@ export default function Contact() {
 
           {/* Map Section */}
           <section className="w-full h-[500px] relative overflow-hidden">
-            <div className="absolute inset-0 z-0 map-container">
-              <img alt="Location Map" className="w-full h-full object-cover grayscale opacity-50" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDm_AqnaNmoOVTL24Jcr2niNXfmEyIcqru-SX3fCWKbSa2n4aVkd4xRx12x7_W-64-aSsBcAJTSuiuB2PMKoNYkljurX6qF8U-QWkulnRGcSsRv-lRtVdzdM0XzDgD1Pkv4jmKVxBWRCj4fl_FJ-6LzBs8WbkOsnm2EPE3S-FeD2-Gp2J2a8Zlke5NXt0qkBUij1uvJsHmGcbPYFuMANqqJbwC2KjR4aDTcagYHsjeooh2spdgM6uxOuJk7c7gDfeQSBFVafgmVQw" />
-            </div>
-            {/* Interactive Map Overlay Placeholder */}
-            <div className="absolute inset-0 flex items-center justify-center z-10">
-              <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl shadow-2xl text-center max-w-sm border border-outline-variant/30">
-                <span className="material-symbols-outlined text-primary text-5xl mb-4 block">location_on</span>
-                <h4 className="font-headline-sm text-headline-sm text-primary mb-2">Visit Our Studio</h4>
-                <p className="font-body-md text-body-md text-on-surface-variant mb-6">Experience the craftsmanship in person. Open for walk-ins and private viewings.</p>
-                <a className="inline-block bg-primary text-on-primary font-label-md text-label-md px-8 py-3 rounded-lg hover:bg-primary-container transition-all" href="#">Get Directions</a>
-              </div>
-            </div>
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28650.22137647272!2d82.69869133476564!3d26.15508490000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3990591ee90948e5%3A0x3475cf7227f62716!2sM%2FS%20KHUSHI%20FURNITURE%20HOUSE!5e0!3m2!1sen!2sin!4v1781241245655!5m2!1sen!2sin" 
+              className="w-full h-full border-0" 
+              allowFullScreen 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </section>
         </main>
 
         <Footer />
 
-        {/* WhatsApp Floating Action Button */}
-        <a className="fixed bottom-8 right-8 z-[60] bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 active:scale-90 transition-all duration-300 group flex items-center gap-2" href="https://wa.me/919876543210" target="_blank" rel="noreferrer">
-          <svg className="w-8 h-8 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.48s3.481 5.228 3.481 8.404c0 6.556-5.333 11.888-11.888 11.888-2.012 0-3.987-.512-5.744-1.483l-6.24 1.638zm5.845-3.385c1.554.922 3.14 1.399 4.714 1.399 5.002 0 9.073-4.071 9.073-9.071 0-2.422-.942-4.7-2.653-6.411s-3.989-2.653-6.411-2.653c-5.002 0-9.072 4.071-9.072 9.071 0 1.688.471 3.321 1.364 4.734l-.887 3.242 3.328-.871z"></path></svg>
-          <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs transition-all duration-500 font-label-md text-label-md pr-2">Chat with us</span>
-        </a>
+        {/* Old WhatsApp button removed to use global floating button */}
       </div>
     </>
   );

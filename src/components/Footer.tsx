@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-gutter max-w-container-max mx-auto px-gutter">
         <div className="space-y-6 sm:col-span-2 lg:col-span-1">
           <div className="flex items-center gap-3">
-            <img src="/logo-tr.png" alt="Khushi Furniture Logo" className="h-12 w-12 object-cover rounded-lg shadow-sm" />
-            <span className="font-headline-md text-[28px] font-bold text-primary dark:text-primary-fixed-dim">
+            <img src="/logo-tr.png" alt="Khushi Furniture Logo" className="h-16 w-16 object-cover rounded-lg" />
+            <span className="font-headline-md text-[24px] font-bold text-primary dark:text-primary/80">
               Khushi Furniture
             </span>
           </div>
@@ -25,32 +25,32 @@ export default function Footer() {
         </div>
 
         <div className="space-y-6">
-          <h4 className="font-headline-sm text-headline-sm text-primary">Collections</h4>
+          <h4 className="font-medium text-headline-sm text-primary">Collections</h4>
           <ul className="space-y-4">
-            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md" href="/products">Living Room</Link></li>
-            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md" href="/products">Dining Set</Link></li>
-            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md" href="/products">Bedroom Luxury</Link></li>
-            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md" href="/products">Office Heritage</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/products">Living Room</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/products">Dining Set</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/products">Bedroom Luxury</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/products">Office Heritage</Link></li>
           </ul>
         </div>
 
         <div className="space-y-6">
-          <h4 className="font-headline-sm text-headline-sm text-primary">Company</h4>
+          <h4 className="font-medium text-headline-sm text-primary">Company</h4>
           <ul className="space-y-4">
-            <li><Link className="text-secondary font-medium font-body-md" href="/about">About Us</Link></li>
-            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md" href="/careers">Careers</Link></li>
-            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md" href="/press">Press Kit</Link></li>
-            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md" href="/sustainability">Sustainability</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/about">About Us</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/careers">Careers</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/press">Press Kit</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/sustainability">Sustainability</Link></li>
           </ul>
         </div>
 
         <div className="space-y-6">
-          <h4 className="font-headline-sm text-headline-sm text-primary">Support</h4>
+          <h4 className="font-medium text-headline-sm text-primary">Support</h4>
           <ul className="space-y-4">
-            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md" href="/privacy-policy">Privacy Policy</Link></li>
-            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md" href="/terms-of-service">Terms of Service</Link></li>
-            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md" href="/shipping-info">Shipping Info</Link></li>
-            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md" href="/returns">Returns</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/privacy-policy">Privacy Policy</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/terms-of-service">Terms of Service</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/shipping-info">Shipping Info</Link></li>
+            <li><Link className="text-on-surface-variant dark:text-on-tertiary-fixed-variant hover:text-primary transition-colors font-body-md relative inline-block after:absolute after:-bottom-1 after:left-0 after:h-[1.5px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="/returns">Returns</Link></li>
           </ul>
         </div>
       </div>

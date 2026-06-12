@@ -40,8 +40,8 @@ export default function Navbar() {
     <header className={`fixed top-0 w-full z-50 bg-background/95 backdrop-blur-md border-b border-outline-variant/30 transition-all duration-300 ${isScrolled ? 'py-2 shadow-md' : 'py-4 shadow-sm'}`}>
       <div className="flex justify-between items-center max-w-container-max mx-auto px-gutter relative">
         <Link href="/" className="flex items-center gap-3 group">
-          <img src="/logo-tr.png" alt="Khushi Furniture Logo" className="h-10 w-10 object-cover rounded-lg shadow-sm group-hover:scale-105 transition-transform" />
-          <span className="font-headline-md text-headline-md font-bold tracking-tight text-primary">Khushi Furniture</span>
+          <img src="/logo-tr.png" alt="Khushi Furniture Logo" className="h-16 w-16 object-cover rounded-lg group-hover:scale-105 transition-transform" />
+          <span className="font-headline-md text-[22px] font-bold tracking-tight text-primary">Khushi Furniture</span>
         </Link>
 
         {/* Desktop Navigation */}
